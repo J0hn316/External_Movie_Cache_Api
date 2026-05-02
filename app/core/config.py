@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     database_url: str = "sqlite:///./app.db"
 
     tmdb_base_url: str = "https://api.themoviedb.org/3"
-    tmdb_access_token: str = ""
+    tmdb_api_key: str = ""
     cache_ttl_seconds: int = 3600
     http_timeout_seconds: int = 10
 
